@@ -1,0 +1,77 @@
+@import "@/app/globals.scss";
+
+.section {
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 0 50px;
+
+    .text {
+        width: 45%;
+        max-width: 700px;
+
+        .bar {
+            width: 150px;
+            height: 5px;
+            background-color: $color2;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-weight: 700;
+            font-size: 4.5rem;
+            line-height: 4rem;
+            margin: 0;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 300;
+        }
+
+        button {
+            background-color: $color2;
+            color: $color1;
+            border: none;
+            padding: 20px 20px;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-family: "Plus Jakarta Sans", sans-serif;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+
+        .follow {
+            p {
+                font-weight: 600;
+                margin: 0;
+                margin-bottom: 5px;
+            }
+
+            div {
+                display: flex;
+                gap: 10px;
+            }
+        }
+    }
+
+    .image {
+        width: 45%;
+        height: 100%;
+        position: relative;
+
+        button {
+            position: absolute;
+            padding: 20px;
+            border-radius: 100%;
+            background-color: $color2;
+            border: none;
+            top: 70%;
+            right: 10px;
+            cursor: pointer;
+        }
+    }
+}
