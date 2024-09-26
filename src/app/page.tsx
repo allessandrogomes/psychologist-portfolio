@@ -10,10 +10,10 @@ export default function Home() {
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <Header />
+        <main>
+          <IntroSection />
+        </main>
       </ThemeProvider>
-      <main>
-        {/* <IntroSection /> */}
-      </main>
     </>
   );
 }
