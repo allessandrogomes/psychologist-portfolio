@@ -43,35 +43,31 @@ export default function Header() {
     }
 
     const drawer = (
-        <div>
-            <Toolbar />
+        <Box sx={{ display: "flex", flexDirection: "column", gap: "20px", mt: "30px" }}>
+            <Typography variant="h6" component="div" sx={{ fontWeight: 800, color: color2, alignSelf: "center" }}>
+                Alessandra Daré
+            </Typography>
             <Divider />
-            <List>
-                {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
-                    <ListItem key={text} disablePadding>
-                        <ListItemButton>
-                            <ListItemIcon>
-                                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-                            </ListItemIcon>
-                            <ListItemText primary={text} />
-                        </ListItemButton>
-                    </ListItem>
-                ))}
-            </List>
-            <Divider />
-            <List>
-                {['All mail', 'Trash', 'Spam'].map((text, index) => (
-                    <ListItem key={text} disablePadding>
-                        <ListItemButton>
-                            <ListItemIcon>
-                                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-                            </ListItemIcon>
-                            <ListItemText primary={text} />
-                        </ListItemButton>
-                    </ListItem>
-                ))}
-            </List>
-        </div>
+            <Box component="nav">
+                <List sx={{ display: "flex", alignItems: "center", flexDirection: "column", gap: "30px" }}>
+                    {navItems.map(item => <ListItem sx={{ width: "max-content", fontWeight: 300, cursor: "pointer", p: 0 }} key={item}>{item}</ListItem>)}
+                </List>
+            </Box>
+            <Button
+                sx={{
+                    textTransform: "capitalize",
+                    color: color2,
+                    border: `2px solid ${color2}`,
+                    borderRadius: 0,
+                    p: "5px 25px",
+                    fontWeight: 600,
+                    width: "max-content",
+                    alignSelf: "center"
+                }}
+            >
+                Contate
+            </Button>
+        </Box>
     )
 
     return (
@@ -112,7 +108,7 @@ export default function Header() {
                             textTransform: "capitalize",
                             color: color2,
                             border: `2px solid ${color2}`,
-                            borderRadius: 0, 
+                            borderRadius: 0,
                             p: "5px 25px",
                             fontWeight: 600,
                             display: { xs: "none", sm: "block" }
