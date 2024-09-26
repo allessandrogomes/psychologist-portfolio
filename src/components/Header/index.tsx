@@ -114,7 +114,8 @@ export default function Header() {
                             border: `2px solid ${color2}`,
                             borderRadius: 0, 
                             p: "5px 25px",
-                            fontWeight: 600
+                            fontWeight: 600,
+                            display: { xs: "none", sm: "block" }
                         }}
                     >
                         Contate
