@@ -12,7 +12,7 @@ export default function IntroSection() {
             <div className={styles.text}>
                 <div className={styles.bar}></div>
                 <h1>Me chamo Alessandra Daré,<br></br>e sou Psicóloga</h1>
-                <h2>I craft high-performing, beautiful websites that are conversion-focused, brand-accurate, & people-friendly.</h2>
+                <h2>Apoio emocional e desenvolvimento pessoal para uma vida mais equilibrada</h2>
                 <button>Vamos Conversar</button>
                 <div className={styles.follow}>
                     <p>Siga-me</p>
@@ -26,16 +26,18 @@ export default function IntroSection() {
             </div>
 
             <div className={styles.image}>
-                <Image 
-                    quality={100} 
-                    style={{ width: "100%", height: "100%", objectFit: "cover" }} 
+                <Image
+                    quality={100}
+                    style={{ width: "100%", height: "100%", objectFit: "cover" }}
                     src="/images/intro.png"
-                    alt="Imagem da Psicóloga" 
-                    width={620} 
-                    height={740}/>
-                
-                <button><KeyboardArrowDownIcon sx={{ fontSize: "100px", color: "#FAFAFA" }}/></button>
+                    alt="Imagem da Psicóloga"
+                    width={620}
+                    height={740}
+                />
+                <button><KeyboardArrowDownIcon sx={{ fontSize: "100px", color: "#FAFAFA" }} /></button>
             </div>
+
+            <div className={styles.mobileImage}></div>
         </section>
     )
 }
