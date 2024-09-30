@@ -1,0 +1,27 @@
+@import "@/app/globals.scss";
+
+.section {
+    height: 100vh;
+    min-height: 700px;
+    width: 100%;
+    background-color: $color2;
+    display: flex;
+
+    .title {
+        width: 45%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 100px;
+    }
+
+    .accordions {
+        width: 55%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 100px;
+    }
+}

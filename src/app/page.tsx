@@ -1,8 +1,9 @@
 import Header from "@/components/Header"
 import IntroSection from "@/components/IntroSection";
+import ServicesSection from "@/components/ServicesSection";
 import { theme } from "@/themes/mui-themes";
-import { CssBaseline } from "@mui/material";
-import { ThemeProvider } from "@mui/material/styles";
+import { CssBaseline, ThemeProvider } from "@mui/material";
+import "./globals.scss"
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <Header />
         <main>
           <IntroSection />
+          <ServicesSection />
         </main>
       </ThemeProvider>
     </>
