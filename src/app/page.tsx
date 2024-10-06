@@ -3,6 +3,7 @@ import IntroSection from "@/components/IntroSection";
 import ServicesSection from "@/components/ServicesSection";
 import "./globals.scss"
 import "@fontsource/plus-jakarta-sans"
+import TestemonialsSection from "@/components/TestemonialsSection";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <main>
           <IntroSection />
           <ServicesSection />
+          <TestemonialsSection />
         </main>
     </>
   );
