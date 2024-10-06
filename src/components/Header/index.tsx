@@ -71,7 +71,7 @@ export default function Header() {
     )
 
     return (
-        <Box sx={{ display: 'flex' }}>
+        <>
             <AppBar
                 sx={{
                     width: "100%",
@@ -139,6 +139,6 @@ export default function Header() {
                     {drawer}
                 </Drawer>
             </Box>
-        </Box>
+        </>
     )
 }
