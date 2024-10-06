@@ -17,12 +17,12 @@ export default function AccordionItem({ title, description, defaultExpanded = fa
                 expandIcon={<ExpandMoreIcon sx={{ color: "#E9EFEC" }} />}
                 aria-controls="panel1-content"
                 id="panel1-header"
-                sx={{ fontSize: "2rem" }}
+                sx={{ fontSize: { xs: "1.5rem", md: "2rem" } }}
             >
-                <Typography sx={{ mt: "13px", mr: "10px" }} component="span">{icon}</Typography>
+                <Typography sx={{ mt: { md: "10px" }, mr: "10px" }} component="span">{icon}</Typography>
                 {title}
             </AccordionSummary>
-            <AccordionDetails>{description}</AccordionDetails>
+            <AccordionDetails sx={{ textAlign: "justify" }}>{description}</AccordionDetails>
         </Accordion>
     )
 }
