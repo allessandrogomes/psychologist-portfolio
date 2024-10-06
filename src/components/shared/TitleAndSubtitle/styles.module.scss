@@ -1,9 +1,9 @@
 @import "@/app/globals.scss";
 
-.content {
+.content, .darkContent {
     color: $color1;
 
-    .bar {
+    .bar{
         width: 150px;
         height: 5px;
         background-color: $color1;
@@ -26,5 +26,13 @@
     h3 {
         font-size: 1.5rem;
         font-weight: 300;
+    }
+}
+
+.darkContent {
+    color: $color2;
+
+    .bar {
+        background-color: $color2;
     }
 }
