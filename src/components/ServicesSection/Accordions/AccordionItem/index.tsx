@@ -19,7 +19,7 @@ export default function AccordionItem({ title, description, defaultExpanded = fa
                 id="panel1-header"
                 sx={{ fontSize: { xs: "1.5rem", md: "2rem" } }}
             >
-                <Typography sx={{ mt: { md: "10px" }, mr: "10px" }} component="span">{icon}</Typography>
+                <Typography sx={{ mt: { md: "3px" }, mr: "10px" }} component="span">{icon}</Typography>
                 {title}
             </AccordionSummary>
             <AccordionDetails sx={{ textAlign: "justify" }}>{description}</AccordionDetails>
