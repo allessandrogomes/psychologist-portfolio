@@ -1,4 +1,3 @@
-import { Typography } from "@mui/material"
 import TitleAndSubtitle from "../shared/TitleAndSubtitle"
 import Accordions from "./Accordions"
 import styles from "./styles.module.scss"
