@@ -43,16 +43,20 @@ export default function Header() {
     }
 
     const drawer = (
-        <Box sx={{ display: "flex", flexDirection: "column", gap: "20px", mt: "30px" }}>
-            <Typography variant="h6" component="div" sx={{ fontWeight: 800, color: color2, alignSelf: "center" }}>
-                Alessandra Daré
-            </Typography>
-            <Divider />
-            <Box component="nav">
-                <List sx={{ display: "flex", alignItems: "center", flexDirection: "column", gap: "30px" }}>
+        <Box sx={{ display: "flex", flexDirection: "column", height: "100%", alignItems: "center", justifyContent: "space-between", gap: "50px" }}>
+            <Box sx={{ display: "flex", flexDirection: "column", width: "100%" }}>
+                <Typography variant="h6" component="div" sx={{ fontWeight: 800, color: color2, textAlign: "center", padding: "20px 0" }}>
+                    Alessandra Daré
+                </Typography>
+                <Divider />
+            </Box>
+
+            <Box component="nav" sx={{ width: "100%", height: "100%" }}>
+                <List sx={{ height: "100%", display: "flex", alignItems: "center", flexDirection: "column", justifyContent: "space-evenly" }}>
                     {navItems.map(item => <ListItem sx={{ width: "max-content", fontWeight: 300, cursor: "pointer", p: 0 }} key={item}>{item}</ListItem>)}
                 </List>
             </Box>
+
             <Button
                 sx={{
                     textTransform: "capitalize",
@@ -62,7 +66,8 @@ export default function Header() {
                     p: "5px 25px",
                     fontWeight: 600,
                     width: "max-content",
-                    alignSelf: "center"
+                    alignSelf: "center",
+                    mb: "50px"
                 }}
             >
                 Contate
