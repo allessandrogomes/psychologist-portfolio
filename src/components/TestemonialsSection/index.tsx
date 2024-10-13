@@ -5,7 +5,7 @@ import styles from "./styles.module.scss"
 import "swiper/css"
 import { SwiperSlide, Swiper } from "swiper/react"
 import { Pagination, Autoplay, Navigation } from "swiper/modules"
-import Testemonial from "../shared/Testemonial"
+import Testemonial from "./Testemonial"
 
 export default function TestemonialsSection() {
     return (
