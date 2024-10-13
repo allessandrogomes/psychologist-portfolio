@@ -27,6 +27,7 @@ export default function TestemonialsSection() {
             >
                 <SwiperSlide>
                     <Testemonial
+                        firstTestemonial
                         urlImage="/images/testemonial/testemonial-1.jpg"
                         widthImage={3392}
                         heightImage={5088}
@@ -38,6 +39,7 @@ export default function TestemonialsSection() {
 
                 <SwiperSlide>
                     <Testemonial
+                        lastTestemonial
                         urlImage="/images/testemonial/testemonial-1.jpg"
                         widthImage={3392}
                         heightImage={5088}

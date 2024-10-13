@@ -10,10 +10,32 @@ interface ITestemonial {
     heightImage: number,
     altImage: string,
     text: string,
-    author: string
+    author: string,
+    firstTestemonial?: boolean,
+    lastTestemonial?: boolean
 }
 
-export default function Testemonial({ urlImage, widthImage, heightImage, altImage, text, author }: ITestemonial) {
+const styleArrow = {
+    fontSize: "3rem",
+    cursor: "pointer"
+}
+
+const styleArrowWithOpacity = {
+    fontSize: "3rem",
+    opacity: "20%"
+}
+
+export default function Testemonial(
+    {
+        urlImage,
+        widthImage,
+        heightImage,
+        altImage,
+        text,
+        author,
+        firstTestemonial = false,
+        lastTestemonial = false
+    }: ITestemonial) {
     return (
         <div className={styles.container}>
             <div className={styles.photo}>
@@ -37,8 +59,8 @@ export default function Testemonial({ urlImage, widthImage, heightImage, altImag
                     </blockquote>
 
                     <div className={styles.navArrows}>
-                        <ArrowCircleLeftIcon className="swiper-button-prev" sx={{ fontSize: "3rem", cursor: "pointer" }} />
-                        <ArrowCircleRightIcon className="swiper-button-next" sx={{ fontSize: "3rem", cursor: "pointer" }} />
+                        <ArrowCircleLeftIcon className="swiper-button-prev" sx={firstTestemonial ? styleArrowWithOpacity : styleArrow} />
+                        <ArrowCircleRightIcon className="swiper-button-next" sx={lastTestemonial ? styleArrowWithOpacity : styleArrow} />
                     </div>
                 </div>
             </div>
