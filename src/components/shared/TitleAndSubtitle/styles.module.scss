@@ -2,6 +2,11 @@
 
 .content, .darkContent {
     color: $color1;
+    align-self: start;
+
+    @media (max-width: 767px) {
+        align-self: center;
+    }
 
     .bar{
         width: 150px;
