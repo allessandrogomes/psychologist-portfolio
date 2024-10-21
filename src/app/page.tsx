@@ -4,6 +4,7 @@ import ServicesSection from "@/components/ServicesSection";
 import "./globals.scss"
 import "@fontsource/plus-jakarta-sans"
 import TestemonialsSection from "@/components/TestemonialsSection";
+import AboutSection from "@/components/AboutSection";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
           <IntroSection />
           <ServicesSection />
           <TestemonialsSection />
+          <AboutSection />
         </main>
     </>
   );
