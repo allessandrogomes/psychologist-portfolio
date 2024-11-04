@@ -5,6 +5,7 @@ import "./globals.scss"
 import "@fontsource/plus-jakarta-sans"
 import TestemonialsSection from "@/components/TestemonialsSection";
 import AboutSection from "@/components/AboutSection";
+import CallSection from "@/components/CalllSection";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
           <ServicesSection />
           <TestemonialsSection />
           <AboutSection />
+          <CallSection />
         </main>
     </>
   );
