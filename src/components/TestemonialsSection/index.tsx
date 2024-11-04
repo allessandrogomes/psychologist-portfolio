@@ -43,7 +43,7 @@ export default function TestemonialsSection() {
                         widthImage={1982}
                         heightImage={2000}
                         altImage="Imagem da Testemunha Letícia Donni"
-                        text="O aconselhamento psicológico com a Alessandra trouxe uma nova perspectiva para minha vida. Através de suas orientações, consegui entender melhor minhas emoções e tomar decisões mais conscientes. O ambiente de acolhimento e segurança nas sessões foi essencial para eu me sentir confortável em compartilhar meus pensamentos e dúvidas. Com sua ajuda, me sinto mais preparado para enfrentar os desafios do dia a dia. Recomendo o trabalho dela para quem busca clareza e equilíbrio emocional!"
+                        text="O aconselhamento com Alessandra trouxe uma nova visão para minha vida. Com suas orientações, compreendi melhor minhas emoções e tomei decisões mais conscientes. O ambiente acolhedor das sessões me deu segurança para compartilhar minhas dúvidas. Sinto-me mais preparado para enfrentar os desafios diários e recomendo seu trabalho a quem busca clareza e equilíbrio emocional."
                         author="Letícia Donni"
                     />
                 </SwiperSlide>
@@ -55,7 +55,7 @@ export default function TestemonialsSection() {
                         widthImage={2426}
                         heightImage={3024}
                         altImage="Imagem das Testemunhas Ernesto Lahm e Gabriela Nunes"
-                        text="A terapia de casal com a Alessandra foi fundamental para melhorar nossa comunicação e fortalecer nosso relacionamento. Ela nos ajudou a entender melhor os sentimentos e necessidades um do outro, proporcionando um espaço seguro para conversas honestas e construtivas. Com sua orientação, aprendemos a lidar com os conflitos de forma mais saudável e a reconstruir a conexão que parecia perdida. A mudança que vivemos juntos foi incrível, e só temos a agradecer por todo o apoio e profissionalismo dela. Recomendo para qualquer casal que busca melhorar a relação!"
+                        text="A terapia de casal com Alessandra foi essencial para melhorar nossa comunicação e fortalecer o relacionamento. Ela nos proporcionou um espaço seguro para conversas honestas e nos ajudou a lidar com conflitos de forma saudável. A transformação foi incrível, e somos gratos por seu apoio e profissionalismo. Recomendo para casais que buscam fortalecer a relação!"
                         author="Ernesto Lahm e Gabriela Nunes"
                     />
                 </SwiperSlide>
