@@ -1,56 +1,6 @@
 $color1: #E9EFEC;
 $color2: #2C363F;
 
-@font-face {
-    font-family: "Plus Jakarta Sans";
-    src: url("/fonts/Plus_Jakarta_Sans/PlusJakartaSans-ExtraLight.woff2") format("woff2");
-    font-style: normal;
-    font-weight: 200;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Plus Jakarta Sans";
-    src: url("/fonts/Plus_Jakarta_Sans/PlusJakartaSans-Light.woff2") format("woff2");
-    font-style: normal;
-    font-weight: 300;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Plus Jakarta Sans";
-    src: url("/fonts/Plus_Jakarta_Sans/PlusJakartaSans-Regular.woff2") format("woff2");
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Plus Jakarta Sans";
-    src: url("/fonts/Plus_Jakarta_Sans/PlusJakartaSans-Medium.woff2") format("woff2");
-    font-style: normal;
-    font-weight: 500;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Plus Jakarta Sans";
-    src: url("/fonts/Plus_Jakarta_Sans/PlusJakartaSans-SemiBold.woff2") format("woff2");
-    font-style: normal;
-    font-weight: 600;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Plus Jakarta Sans";
-    src: url("/fonts/Plus_Jakarta_Sans/PlusJakartaSans-Bold.woff2") format("woff2");
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Plus Jakarta Sans";
-    src: url("/fonts/Plus_Jakarta_Sans/PlusJakartaSans-ExtraBold.woff2") format("woff2");
-    font-style: normal;
-    font-weight: 800;
-    font-display: swap;
-}
-
 .body {
     background-color: $color1;
     color: $color2;
