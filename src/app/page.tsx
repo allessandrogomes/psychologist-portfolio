@@ -6,6 +6,7 @@ import "@fontsource/plus-jakarta-sans"
 import TestemonialsSection from "@/components/TestemonialsSection";
 import AboutSection from "@/components/AboutSection";
 import CallSection from "@/components/CalllSection";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
           <AboutSection />
           <CallSection />
         </main>
+        <Footer />
     </>
   );
 }
