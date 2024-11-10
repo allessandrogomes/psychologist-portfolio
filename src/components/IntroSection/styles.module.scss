@@ -9,6 +9,7 @@
     justify-content: center;
     gap: 50px;
     padding: 0 50px;
+    margin-top: 80px;
 
     @media (max-width: 767px) {
         flex-direction: column-reverse;

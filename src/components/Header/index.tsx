@@ -25,17 +25,17 @@ const navItems = [
     },
     {
         text: "Serviços",
-        offset: 0,
+        offset: -80,
         to: "servicos"
     },
     {
         text: "Depoimentos",
-        offset: 0,
+        offset: -80,
         to: "depoimentos"
     },
     {
         text: "Sobre Mim",
-        offset: 0,
+        offset: -80,
         to: "sobre-mim"
     }
 ]
@@ -118,7 +118,7 @@ export default function Header() {
                     borderBottom: "2px solid rgba(0, 0, 0, 0.3)",
                     display: "flex",
                     justifyContent: "center",
-                    position: "relative"
+                    position: "fixed"
                 }}
             >
                 <Toolbar sx={{ display: "flex", justifyContent: "space-around", gap: "10px" }}>
