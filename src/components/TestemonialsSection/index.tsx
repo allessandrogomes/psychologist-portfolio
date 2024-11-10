@@ -9,7 +9,7 @@ import Testemonial from "./Testemonial"
 
 export default function TestemonialsSection() {
     return (
-        <section className={styles.section}>
+        <section className={styles.section} id="depoimentos">
             <TitleAndSubtitle title="Depoimentos" subtitle="O que as pessoas dizem sobre mim" darkTheme />
             <Swiper
                 className={styles.swiper}

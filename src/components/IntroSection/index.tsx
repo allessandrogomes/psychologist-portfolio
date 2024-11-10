@@ -8,7 +8,7 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown'
 
 export default function IntroSection() {
     return (
-        <section className={styles.section}>
+        <section className={styles.section} id="inicio">
             <div className={styles.text}>
                 <div className={styles.bar}></div>
                 <h1>Me chamo Alessandra Daré,<br></br>e sou Psicóloga</h1>

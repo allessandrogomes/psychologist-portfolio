@@ -12,11 +12,33 @@ import Toolbar from '@mui/material/Toolbar'
 import Typography from '@mui/material/Typography'
 import { useState } from 'react'
 import { Button } from '@mui/material'
+import { Link } from 'react-scroll'
 
 const drawerWidth = 240
 const color1 = "#E9EFEC"
 const color2 = "#2C363F"
-const navItems = ["Início", "Serviços", "Contextos", "Sobre Mim"]
+const navItems = [
+    {
+        text: "Início",
+        offset: -80,
+        to: "inicio"
+    },
+    {
+        text: "Serviços",
+        offset: 0,
+        to: "servicos"
+    },
+    {
+        text: "Depoimentos",
+        offset: 0,
+        to: "depoimentos"
+    },
+    {
+        text: "Sobre Mim",
+        offset: 0,
+        to: "sobre-mim"
+    }
+]
 
 export default function Header() {
     const [mobileOpen, setMobileOpen] = useState(false)
@@ -48,7 +70,21 @@ export default function Header() {
 
             <Box component="nav" sx={{ width: "100%", height: "100%" }}>
                 <List sx={{ height: "100%", display: "flex", alignItems: "center", flexDirection: "column", justifyContent: "space-evenly" }}>
-                    {navItems.map(item => <ListItem sx={{ width: "max-content", fontWeight: 300, cursor: "pointer", p: 0 }} key={item}>{item}</ListItem>)}
+                    {navItems.map(item =>
+                        <ListItem sx={{ width: "max-content", fontWeight: 300, cursor: "pointer", p: 0 }} key={item.to}>
+                            <Link
+                                role="button"
+                                aria-label="Scroll to respective Section"
+                                style={{ display: 'block', height: '26px' }}
+                                to={item.to}
+                                spy
+                                smooth
+                                duration={500}
+                                offset={item.offset}
+                            >
+                                {item.text}
+                            </Link>
+                        </ListItem>)}
                 </List>
             </Box>
 
@@ -100,7 +136,21 @@ export default function Header() {
                     </Typography>
                     <Box component="nav" sx={{ display: { xs: "none", md: "block" } }}>
                         <List sx={{ display: "flex", gap: "30px" }}>
-                            {navItems.map(item => <ListItem sx={{ width: "max-content", fontWeight: 300, cursor: "pointer", p: 0 }} key={item}>{item}</ListItem>)}
+                            {navItems.map(item =>
+                                <ListItem sx={{ width: "max-content", fontWeight: 300, cursor: "pointer", p: 0 }} key={item.to}>
+                                    <Link
+                                        role="button"
+                                        aria-label="Scroll to respective Section"
+                                        style={{ display: 'block', height: '26px' }}
+                                        to={item.to}
+                                        spy
+                                        smooth
+                                        duration={500}
+                                        offset={item.offset}
+                                    >
+                                        {item.text}
+                                    </Link>
+                                </ListItem>)}
                         </List>
                     </Box>
                     <Button
@@ -109,18 +159,31 @@ export default function Header() {
                             color: color2,
                             border: `2px solid ${color2}`,
                             borderRadius: 0,
-                            p: "5px 25px",
+                            padding: 0,
                             fontWeight: 600,
+                            width: "106px",
+                            height: "38px",
                             display: { xs: "none", sm: "block" }
                         }}
                     >
-                        Contate
+                        <Link
+                            role="button"
+                            aria-label="Scroll to respective Section"
+                            style={{ display: 'block', padding: "5px 0" }}
+                            to="contate"
+                            spy
+                            smooth
+                            duration={500}
+                            offset={0}
+                        >
+                            Contate
+                        </Link>
                     </Button>
                 </Toolbar>
             </AppBar>
             <Box
                 component="nav"
-                sx={{ width: { sm: drawerWidth } }}
+                sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } }}
             >
                 {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
                 <Drawer

@@ -4,7 +4,7 @@ import styles from "./styles.module.scss"
 
 export default function AboutSection() {
     return (
-        <section className={styles.section}>
+        <section className={styles.section} id="sobre-mim">
             <TitleAndSubtitle title="Sobre Mim" subtitle="Um pouco sobre mim e minha trajetória" />
 
             <div className={styles.boxImageAndText}>
