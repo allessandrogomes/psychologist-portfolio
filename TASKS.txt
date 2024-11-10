@@ -1,0 +1,11 @@
+# TASKS.txt - Lista de Tarefas Pendentes
+
+## Funcionalidades
+- Adicionar o sublinhado no Botão de Section no Header, referente a section atual.
+- Ajustar o Ícone, Título e Descrição da página.
+- Adicionar funcionalidade Scroll-To-Section no botão "Contate" do Header SideBar.
+- Verificar disponibilidade para personalizar o Scroll da página.
+
+## Perfomance
+- Comprimir e ajustar o tamanho das imagens.
+- Realizar teste e verificar Perfomance da página e corrigir possíveis problemas.
