@@ -131,21 +131,6 @@
         @media (max-width: 767px) {
             display: none;
         }
-
-        button {
-            position: absolute;
-            padding: 20px;
-            border-radius: 100%;
-            background-color: $color2;
-            border: none;
-            top: 70%;
-            right: 10px;
-            cursor: pointer;
-
-            @media (max-width: 767px) {
-                display: none;
-            }
-        }
     }
 
     .mobileImage {

@@ -4,7 +4,6 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import InstagramIcon from '@mui/icons-material/Instagram'
 import XIcon from '@mui/icons-material/X'
 import TelegramIcon from '@mui/icons-material/Telegram'
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown'
 
 export default function IntroSection() {
     return (
@@ -34,7 +33,6 @@ export default function IntroSection() {
                     width={620}
                     height={740}
                 />
-                <button><KeyboardArrowDownIcon sx={{ fontSize: "100px", color: "#FAFAFA" }} /></button>
             </div>
 
             <div className={styles.mobileImage}></div>
