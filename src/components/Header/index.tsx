@@ -63,7 +63,7 @@ export default function Header() {
     const drawer = (
         <Box sx={{ display: "flex", flexDirection: "column", height: "100%", alignItems: "center", justifyContent: "space-between", gap: "50px" }}>
             <Box sx={{ display: "flex", flexDirection: "column", width: "100%" }}>
-                <Typography variant="h6" component="div" sx={{ fontWeight: 800, color: color2, textAlign: "center", padding: "20px 0" }}>
+                <Typography variant="h6" component="div" sx={{ fontWeight: 800, color: color2, textAlign: "center", padding: "20px 0", fontFamily: "Plus Jakarta Sans" }}>
                     Alessandra Daré
                 </Typography>
                 <Divider />
@@ -143,7 +143,7 @@ export default function Header() {
                     >
                         <MenuIcon />
                     </IconButton>
-                    <Typography variant="h6" component="div" sx={{ fontWeight: 800, color: color2 }}>
+                    <Typography variant="h6" component="div" sx={{ fontWeight: 800, color: color2, fontFamily: "Plus Jakarta Sans" }}>
                         Alessandra Daré
                     </Typography>
                     <Box component="nav" sx={{ display: { xs: "none", md: "block" } }}>
