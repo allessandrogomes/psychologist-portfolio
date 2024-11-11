@@ -99,7 +99,6 @@ export default function Header() {
                     fontWeight: 600,
                     width: "106px",
                     height: "38px",
-                    display: { xs: "none", sm: "block" },
                     mb: "20px"
                 }}
             >
