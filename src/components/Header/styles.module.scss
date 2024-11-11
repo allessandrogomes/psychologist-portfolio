@@ -1,0 +1,11 @@
+@import "@/app/globals.scss";
+
+.listItem {
+    border-bottom: 2px solid transparent;
+    max-height: 26px;
+
+    &:hover {
+        color: $color2;
+        border-bottom-color: $color2;
+    }
+}

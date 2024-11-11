@@ -8,3 +8,8 @@ $color2: #2C363F;
     overflow-x: hidden;
     margin: 0;
 }
+
+.active {
+    border-bottom: 2px solid $color2;
+    color: $color2;
+  }

@@ -1,5 +1,6 @@
 'use client'
 
+import styles from "./styles.module.scss"
 import AppBar from '@mui/material/AppBar'
 import Box from '@mui/material/Box'
 import Divider from '@mui/material/Divider'
@@ -137,7 +138,7 @@ export default function Header() {
                     <Box component="nav" sx={{ display: { xs: "none", md: "block" } }}>
                         <List sx={{ display: "flex", gap: "30px" }}>
                             {navItems.map(item =>
-                                <ListItem sx={{ width: "max-content", fontWeight: 300, cursor: "pointer", p: 0 }} key={item.to}>
+                                <ListItem className={styles.listItem} sx={{ width: "max-content", fontWeight: 300, cursor: "pointer", p: 0 }} key={item.to}>
                                     <Link
                                         role="button"
                                         aria-label="Scroll to respective Section"
