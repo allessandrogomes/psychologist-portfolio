@@ -95,14 +95,26 @@ export default function Header() {
                     color: color2,
                     border: `2px solid ${color2}`,
                     borderRadius: 0,
-                    p: "5px 25px",
+                    padding: 0,
                     fontWeight: 600,
-                    width: "max-content",
-                    alignSelf: "center",
-                    mb: "50px"
+                    width: "106px",
+                    height: "38px",
+                    display: { xs: "none", sm: "block" },
+                    mb: "20px"
                 }}
             >
-                Contate
+                <Link
+                    role="button"
+                    aria-label="Scroll to respective Section"
+                    style={{ display: 'block', padding: "5px 0" }}
+                    to="contate"
+                    spy
+                    smooth
+                    duration={500}
+                    offset={0}
+                >
+                    Contate
+                </Link>
             </Button>
         </Box>
     )
