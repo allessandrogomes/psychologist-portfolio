@@ -10,10 +10,10 @@ export default function AboutSection() {
             <div className={styles.boxImageAndText}>
                 <div className={styles.boxImage}>
                     <Image
-                        src="/images/about-image.jpg"
+                        src="/images/psicologa-2.jpg"
                         style={{ width: "100%", height: "100%", objectFit: "cover" }}
-                        width={3840}
-                        height={5760}
+                        width={3456}
+                        height={5184}
                         alt="Fotografia da Psicóloga"
                     />
                 </div>
