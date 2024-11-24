@@ -10,7 +10,7 @@ export default function Footer() {
 
             <p>Desenvolvido por <a href="https://www.valebytes.com.br" target="_blank">ValeBytes &copy;</a></p>
 
-            <p>Alessandra Daré 2024 &copy;</p>
+            <p>Ana C. Martins 2024 &copy;</p>
 
             <div className={styles.socialMedias}>
                 <LinkedInIcon sx={{ cursor: "pointer" }} />

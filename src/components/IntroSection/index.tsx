@@ -13,7 +13,7 @@ export default function IntroSection() {
         <section className={styles.section} id="inicio">
             <div className={styles.text}>
                 <div className={styles.bar}></div>
-                <h1>Me chamo Alessandra Daré,<br></br>e sou Psicóloga</h1>
+                <h1>Me chamo Ana C. Martins,<br></br>e sou Psicóloga</h1>
                 <h2>Apoio emocional e desenvolvimento pessoal para uma vida mais equilibrada</h2>
                 <button>
                     <Link

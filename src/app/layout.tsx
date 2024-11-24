@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Alessandra Daré - Psicóloga",
+  title: "Ana C. Martins - Psicóloga",
   description: "Apoio emocional e desenvolvimento pessoal para uma vida mais equilibrada"
 };
 
