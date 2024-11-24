@@ -42,6 +42,7 @@ export default function IntroSection() {
 
             <div className={styles.image}>
                 <Image
+                    priority
                     quality={100}
                     style={{ width: "100%", height: "100%", objectFit: "cover" }}
                     src="/images/psicologa-1.jpg"
