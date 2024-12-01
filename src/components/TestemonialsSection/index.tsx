@@ -28,9 +28,9 @@ export default function TestemonialsSection() {
                 <SwiperSlide>
                     <Testemonial
                         firstTestemonial
-                        urlImage="/images/testemonial/testemonial-1.jpg"
-                        widthImage={3392}
-                        heightImage={5088}
+                        urlImage="/images/testemonial/testemonial-1.webp"
+                        widthImage={1696}
+                        heightImage={2544}
                         altImage="Imagem da Testemunha Fernanda Belfort"
                         text="A terapia com Ana transformou minha vida. Ela me ajudou a entender meus sentimentos e enfrentar meus desafios com mais clareza e confiança. O ambiente sempre foi acolhedor e seguro, o que facilitou muito para eu me abrir e trabalhar minhas questões. Sinto que sou uma versão muito melhor de mim mesma agora, graças à sua orientação. Recomendo de olhos fechados!"
                         author="Fernanda Belfort"
@@ -39,9 +39,9 @@ export default function TestemonialsSection() {
 
                 <SwiperSlide>
                     <Testemonial
-                        urlImage="/images/testemonial/testemonial-2.jpg"
-                        widthImage={1982}
-                        heightImage={2000}
+                        urlImage="/images/testemonial/testemonial-2.webp"
+                        widthImage={991}
+                        heightImage={1000}
                         altImage="Imagem da Testemunha Letícia Donni"
                         text="O aconselhamento com Ana trouxe uma nova visão para minha vida. Com suas orientações, compreendi melhor minhas emoções e tomei decisões mais conscientes. O ambiente acolhedor das sessões me deu segurança para compartilhar minhas dúvidas. Sinto-me mais preparado para enfrentar os desafios diários e recomendo seu trabalho a quem busca clareza e equilíbrio emocional."
                         author="Letícia Donni"
@@ -51,9 +51,9 @@ export default function TestemonialsSection() {
                 <SwiperSlide>
                     <Testemonial
                         lastTestemonial
-                        urlImage="/images/testemonial/testemonial-3.jpg"
-                        widthImage={2426}
-                        heightImage={3024}
+                        urlImage="/images/testemonial/testemonial-3.webp"
+                        widthImage={1213}
+                        heightImage={1512}
                         altImage="Imagem das Testemunhas Ernesto Lahm e Gabriela Nunes"
                         text="A terapia de casal com Ana foi essencial para melhorar nossa comunicação e fortalecer o relacionamento. Ela nos proporcionou um espaço seguro para conversas honestas e nos ajudou a lidar com conflitos de forma saudável. A transformação foi incrível, e somos gratos por seu apoio e profissionalismo. Recomendo para casais que buscam fortalecer a relação!"
                         author="Ernesto Lahm e Gabriela Nunes"

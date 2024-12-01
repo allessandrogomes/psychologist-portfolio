@@ -44,10 +44,10 @@ export default function IntroSection() {
                 <Image
                     quality={100}
                     style={{ width: "100%", height: "100%", objectFit: "cover" }}
-                    src="/images/psicologa-1.jpg"
+                    src="/images/psicologa-1.webp"
                     alt="Imagem da Psicóloga"
-                    width={3355}
-                    height={5033}
+                    width={1678}
+                    height={2517}
                 />
             </div>
 
