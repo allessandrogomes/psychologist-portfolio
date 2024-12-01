@@ -34,6 +34,7 @@ export default function Header() {
         }
     }
 
+    // Componentes do Menu Lateral em telas menores
     const drawer = (
         <Box sx={{ display: "flex", flexDirection: "column", height: "100%", alignItems: "center", justifyContent: "space-between", gap: "50px" }}>
             <Box sx={{ display: "flex", flexDirection: "column", width: "100%" }}>
@@ -46,9 +47,11 @@ export default function Header() {
             <ContactButton mobile/>
         </Box>
     )
+    // Componentes do Menu Lateral em telas menores
 
     return (
         <>
+            {/* Cabeçalho padrão */}
             <AppBar
                 sx={{
                     width: "100%",
@@ -63,13 +66,15 @@ export default function Header() {
                 }}
             >
                 <Toolbar sx={{ display: "flex", justifyContent: "space-around", gap: "10px" }}>
-                    <MenuButton onClick={handleDrawerToggle}/>
+                    <MenuButton onClick={handleDrawerToggle}/> {/* Visível somente em telas menores */}
                     <Logo />
                     <NavItems />
                     <ContactButton />
                 </Toolbar>
             </AppBar>
+            {/* Cabeçalho padrão */}
 
+            {/* Menu Lateral que recebe os "Componentes do Menu Lateral" mencionado inicialmente */}
             <Box
                 component="nav"
                 sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } }}
@@ -90,6 +95,7 @@ export default function Header() {
                     {drawer}
                 </Drawer>
             </Box>
+            {/* Menu Lateral que recebe os "Componentes do Menu Lateral" mencionado inicialmente */}
         </>
     )
 }
