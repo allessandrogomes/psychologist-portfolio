@@ -1,7 +1,5 @@
 # TASKS.txt - Lista de Tarefas Pendentes
 
-## Funcionalidades
-- Verificar disponibilidade para personalizar o Scroll da página.
 
 ## Perfomance
 - Comprimir e ajustar o tamanho das imagens.
